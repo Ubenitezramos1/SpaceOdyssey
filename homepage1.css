@@ -5,11 +5,11 @@ body {
 
 .Nebulon {
     display: block;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     margin-left: auto;
     margin-right: auto;
-    animation: spin 10s linear infinite;
+    animation: spin 20s linear infinite;
 }
 
 @keyframes spin {
