@@ -27,7 +27,7 @@ body {
     display: flex;
     width: 30%;
     height: 30%;
-    margin-top: 80px;
+    margin-top: 50px;
     float: right;
     animation: spin 27s linear infinite;
 }
