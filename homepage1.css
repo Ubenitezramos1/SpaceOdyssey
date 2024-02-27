@@ -23,6 +23,14 @@ body {
 
 }
 
+.Glyptoria {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    margin-left: 15px;
+    animation: spin 27s linear infinite;
+}
+
 @keyframes spin {
     100%  {
         transform: rotate(360deg);
