@@ -3,13 +3,16 @@ body{
     background-image: url("nebulonbackground.png");
     background-repeat: no-repeat;
     background-color: #191418;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
 }
 
 .spaceship img{
     position: fixed;
-    top: -700px;
-    left: -200px;
-    width: 1200px;
+    top: -50vh;
+    left: -15vh;
+    width: 90vh;
     animation-name: spaceship, spaceshipShake;
     animation-duration: 3s, 1s;
     animation-timing-function: ease-out,ease-in-out;
@@ -19,7 +22,7 @@ body{
 }
 
 @keyframes spaceship {
-    100%{top: 250px}
+    100%{top:40vh}
 }
 @keyframes spaceshipShake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -36,9 +39,9 @@ body{
 }
 .redalien img{
     position: fixed;
-    top: 690px;
-    left: 1280px;
-    width: 30px;
+    top: 69vh;
+    left: 125vh;
+    width: 1vh;
     animation-name: alien, alienWalk;
     animation-duration: 4s, 2s;
     animation-timing-function: ease-out;
@@ -51,7 +54,7 @@ body{
     25%{}
     50%{}
     75%{}
-    100%{width: 240px;left: 800px;top: 600px;}
+    100%{width: 25vh;left: 80vh;top: 60vh;}
 }
 @keyframes alienWalk {
     0% { transform: translate(1px, 1px) rotate(2deg); }
@@ -72,7 +75,7 @@ span{
 }
 
 .dialogue div{
-    left: 1200px;
+    left: 110vh;
     padding-inline: 20px;
     padding-block: 5px;
     background-color: white;
@@ -80,18 +83,18 @@ span{
     border-color: black;
     border-radius: 20px;
     border-width: 2px;
-    width: 500px;
+    width: 28vh;
 }
 
 .dialogue p{
     font-family: 'Press Start 2P';
-    font-size: 14px;
+    font-size: 1vh;
     color: black;
     line-height: 1.3;
 }
 .textbox1{
     position: fixed;
-    top: 300px;
+    top: 20vh;
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
@@ -101,7 +104,7 @@ span{
 
 .textbox2{
     position: fixed;
-    top: 450px;
+    top: 35vh;
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
@@ -111,7 +114,7 @@ span{
 
 .textbox3{
     position: fixed;
-    top: 600px;
+    top: 50vh;
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
