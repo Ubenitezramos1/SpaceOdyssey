@@ -4,6 +4,10 @@ body {
 }
 
 .Nebulon {
-    background-attachment: fixed;
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
