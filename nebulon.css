@@ -119,7 +119,7 @@ span{
 .textbox1{
     position: absolute;
     top: 250px;
-    opacity: 10%;
+    opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
     animation-delay: 4s;
@@ -129,7 +129,7 @@ span{
 .textbox2{
     position: absolute;
     top: 400px;
-    opacity: 10%;
+    opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
     animation-delay: 7s;
