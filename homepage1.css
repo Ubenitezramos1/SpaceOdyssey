@@ -1,6 +1,6 @@
 body {
     background-image: url('spacebackground.png');
-    background-attachment: flex;
+    background-attachment: relative;
     margin: 0;
 }
 
