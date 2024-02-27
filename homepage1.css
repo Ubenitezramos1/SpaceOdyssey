@@ -2,3 +2,8 @@ body {
     background-image: url('spacebackground.png');
     margin: 0;
 }
+
+.Nebulon {
+    background-attachment: block;
+
+}
