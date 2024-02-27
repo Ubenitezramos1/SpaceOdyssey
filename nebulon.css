@@ -4,4 +4,124 @@ body{
     background-repeat: no-repeat;
     background-color: #191418;
     background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.spaceship img{
+    position: fixed;
+    top: -50vh;
+    left: -15vh;
+    width: 90vh;
+    animation-name: spaceship, spaceshipShake;
+    animation-duration: 3s, 1s;
+    animation-timing-function: ease-out,ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1, 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spaceship {
+    100%{top:40vh}
+}
+@keyframes spaceshipShake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.redalien img{
+    position: fixed;
+    top: 69vh;
+    left: 125vh;
+    width: 1vh;
+    animation-name: alien, alienWalk;
+    animation-duration: 4s, 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1, 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes alien {
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{width: 25vh;left: 80vh;top: 60vh;}
+}
+@keyframes alienWalk {
+    0% { transform: translate(1px, 1px) rotate(2deg); }
+    10% { transform: translate(-1px, -1px) rotate(-2deg); }
+    20% { transform: translate(1px, 1px) rotate(2deg); }
+    30% { transform: translate(-1px, -1px) rotate(-2deg); }
+    40% { transform: translate(1px, 1px) rotate(2deg); }
+    50% { transform: translate(-1px, -1px) rotate(-2deg); }
+    60% { transform: translate(1px, 1px) rotate(2deg); }
+    70% { transform: translate(-1px, -1px) rotate(-2deg); }
+    80% { transform: translate(1px, 1px) rotate(2deg); }
+    90% { transform: translate(-1px, -1px) rotate(-2deg); }
+    100% { transform: translate(1px, 1px) rotate(0deg); }
+}
+
+span{
+    color: #4c72b3;
+}
+
+.dialogue div{
+    left: 110vh;
+    padding-inline: 20px;
+    padding-block: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    width: 28vh;
+}
+
+.dialogue p{
+    font-family: 'Press Start 2P';
+    font-size: 1vh;
+    color: black;
+    line-height: 1.3;
+}
+.textbox1{
+    position: fixed;
+    top: 20vh;
+    opacity: 0%;
+    animation-name: textboxAppear;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.textbox2{
+    position: fixed;
+    top: 35vh;
+    opacity: 0%;
+    animation-name: textboxAppear;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+.textbox3{
+    position: fixed;
+    top: 50vh;
+    opacity: 0%;
+    animation-name: textboxAppear;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textboxAppear {
+    100%{background-color: #ffffffad;opacity: 100%;}
 }
