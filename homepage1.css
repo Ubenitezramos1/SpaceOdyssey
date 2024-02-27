@@ -25,9 +25,8 @@ body {
 
 .Glyptoria {
     display: flex;
-    width: 20%;
-    height: 20%;
-    margin-left: 15px;
+    width: 30%;
+    height: 30%;
     animation: spin 27s linear infinite;
 }
 
