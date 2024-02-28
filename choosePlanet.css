@@ -175,7 +175,7 @@ body {
     animation: moveSpaceship 5s linear infinite;
   }
 
-  @@keyframes moveSpaceship {
+  @keyframes moveSpaceship {
     0% { 
       transform: translateX(0); 
     }
