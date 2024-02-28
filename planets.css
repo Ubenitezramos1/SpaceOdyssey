@@ -17,7 +17,7 @@ body {
     left: 60px;
     top: 200px;
     animation: spin 20s linear infinite;
-    cursor: url(https://cdn.discordapp.com/attachments/1207026181581578266/1211082507962032229/spaceship_Background_Removed.png?ex=65ece77a&is=65da727a&hm=d313d4e1f16dadb0effc0c5a08e36b8b0387f01100a8ebe32d058f6f9573f9f8&) 32 32, pointer;
+    cursor: url(spaceship.png) 32 32, pointer;
 }
 
 .Nebulon:hover {
