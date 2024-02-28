@@ -172,7 +172,7 @@ body {
     left: 0px;
     top: 0px; 
     z-index: 1;
-    animation: moveSpaceship 10s linear infinite;
+    animation: moveSpaceship 5s linear infinite;
   }
 
   @keyframes moveSpaceship {
