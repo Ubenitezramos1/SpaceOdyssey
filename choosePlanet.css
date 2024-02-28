@@ -177,16 +177,20 @@ body {
 
   @keyframes moveSpaceship {
     0% {
+      transform: rotateY(0deg);  
       left: 0;
       top: 0;
     }
     50% {
+      transform: rotateY(180deg);
       left: calc(100% - 100px);
-      top: 500px;
+      top: 500px; 
     }
     100% {
+      transform: rotateY(0deg);
       left: 0;
-      top: 0; 
+      top: 0;
     }
   }
+  
 
