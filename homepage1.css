@@ -15,10 +15,10 @@ body {
 
 .Zentari {
     position: absolute;
-    width: auto;
-    height: auto;
-    margin-top: 80px;
-    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+    top: 300px;
+    right: 90px;
     animation: spin 8s linear infinite;
 }
 
