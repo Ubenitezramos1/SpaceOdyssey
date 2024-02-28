@@ -24,8 +24,8 @@ body {
 
 .Glyptoria {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 310px;
     top: 250px;
     right: 60px;
     animation: spin 27s linear infinite;
