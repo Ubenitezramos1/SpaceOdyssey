@@ -20,7 +20,9 @@ body {
     cursor: url(spaceship.png) 32 32, pointer;
 }
 
-
+.Nebulon:hover {
+    scale: 1.2;
+  }
 
 .Zentari {
     position: absolute;
