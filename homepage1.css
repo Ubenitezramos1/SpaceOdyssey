@@ -83,15 +83,15 @@ span{
 @keyframes move1 {
     0% { 
       right: 0;
-      top: 20px;
+      top: 300px;
     }
     50% {
       right: calc(100% - 100px);
-      top: 300px;
+      top: 600px;
     }
     100% {  
       right: 0; 
-      top: 20px;   
+      top: 300px;   
     }
   }
   
