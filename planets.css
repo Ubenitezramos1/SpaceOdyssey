@@ -17,7 +17,9 @@ span{
     animation: spin 20s linear infinite;
 }
 
-
+.Nebulon:hover {
+    scale: 1.2;
+  }
 
 .Zentari {
     position: absolute;
@@ -41,6 +43,9 @@ span{
     animation: spin 27s linear infinite;
 }
 
+.Glyptoria:hover {
+    scale: 1.2;
+  }
 @keyframes spin {
     100%  {
         transform: rotate(360deg);
