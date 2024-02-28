@@ -1,9 +1,7 @@
 body {
     background-image: url('spacebackground.png');
-    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    margin: 0;
 }
 
 .Nebulon {
