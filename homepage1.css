@@ -85,10 +85,10 @@ span{
     height: 150px;
     top: 500px;
     left: 0px;
-    animation: bounce 10s linear infinite;
+    animation: move1 10s linear infinite;
 }
 
-@keyframes bounce {
+@keyframes move1 {
     0% {
       left: 0;
       top: 0; 
