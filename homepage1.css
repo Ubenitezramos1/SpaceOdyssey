@@ -129,8 +129,8 @@ span{
     width: 440px;
     border-radius: 50px;
     padding: 5px;
-    margin-top: 450px;
-    margin-right: auto;
+    margin-top: 400px;
+    margin: auto;
     transition: 0.5s;
 
 }
