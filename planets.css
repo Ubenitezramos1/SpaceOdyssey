@@ -17,7 +17,7 @@ span{
     animation: spin 20s linear infinite;
 }
 
-.Nebulon img :hover {
+img:hover {
     scale: 1.5;
 }
 
