@@ -15,9 +15,9 @@ body {
 
 .Zentari {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 600px;
+    width: 330px;
+    height: 330px;
+    top: 550px;
     right: 500px;
     animation: spin 8s linear infinite;
 }
