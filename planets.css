@@ -7,11 +7,7 @@ body {
     background-image: url('spacebackground.png');
     background-repeat: no-repeat;
     margin:0;
-    cursor: url(spaceship.png), pointer;
-}
-
-span{
-    color: #cd4242;
+    cursor: url('spaceship.png'), pointer;
 }
 
 .Nebulon {
