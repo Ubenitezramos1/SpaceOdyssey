@@ -24,10 +24,10 @@ body {
 
 .Glyptoria {
     position: absolute;
-    width: auto;
-    height: auto;
-    margin-top: 50px;
-    float: right;
+    width: 200px;
+    height: 200px;
+    top: 250px;
+    right: 60px;
     animation: spin 27s linear infinite;
 }
 
