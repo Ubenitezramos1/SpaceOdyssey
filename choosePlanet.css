@@ -177,16 +177,17 @@ body {
 
   @keyframes moveSpaceship {
     0% {
-      left: 0;
-      top: 0;
+      left: 60px; /* start left position of .Nebulon */  
+      top: 400px; 
     }
+    
     50% {
-      left: calc(100% - 100px);
-      top: 500px;
+      left: calc(100% - 530px); /* end left position of .Glyptoria */
+      top: 310px; /* end top position of .Glyptoria */
     }
+    
     100% {
-      left: 0;
-      top: 0; 
+     left: 60px; 
+     top: 400px;
     }
   }
-
