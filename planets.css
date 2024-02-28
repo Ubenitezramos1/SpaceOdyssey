@@ -29,7 +29,7 @@ span{
 }
 
 .Zentari:hover {
-    transform: scale(1.3); /* zoom in slightly */
+    scale: 1.2;
   }
 
 .Glyptoria {
