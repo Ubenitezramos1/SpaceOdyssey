@@ -85,7 +85,7 @@ span{
     height: 150px;
     top: 500px;
     left: 0px;
-    animation: bounce 8s linear infinite;
+    animation: bounce 10s linear infinite;
 }
 
 @keyframes bounce {
