@@ -4,7 +4,9 @@
 }
 
 body {
+    width: 100%;
     background-image: url('spacebackground.png');
+    background-size: contain;
     margin:0;
 }
 
