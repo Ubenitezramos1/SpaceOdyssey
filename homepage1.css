@@ -118,4 +118,25 @@ span{
       top: 0;
     }  
   }
+
+.start {
+    font-size: 30px;
+    color: #191418;
+    font-weight: bold;
+    font-family:'Press Start 2p';
+    position: absolute;
+    background-color: #ffffffad;
+    width: 220px;
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 0.5s;
+
+}
+
+.start:hover {
+    scale: 2.0; 
+}
+
   
