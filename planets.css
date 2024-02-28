@@ -1,0 +1,42 @@
+body {
+    background-image: url('spacebackground.png');
+    background-repeat: no-repeat;
+    margin:0;
+}
+
+span{
+    color: #cd4242;
+}
+
+.Nebulon {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 60px;
+    top: 200px;
+    animation: spin 20s linear infinite;
+}
+
+.Zentari {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 450px;
+    right: 550px;
+    animation: spin 8s linear infinite;
+}
+
+.Glyptoria {
+    position: absolute;
+    width: 430px;
+    height: 310px;
+    top: 100px;
+    right: -80px;
+    animation: spin 27s linear infinite;
+}
+
+@keyframes spin {
+    100%  {
+        transform: rotate(360deg);
+    }
+}
