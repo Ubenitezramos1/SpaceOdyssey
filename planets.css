@@ -76,6 +76,7 @@ span{
 }
 
 .introduction {
+    display: inline-block;
     position: absolute;
     opacity: 0%;
     animation-name: textboxAppear;
