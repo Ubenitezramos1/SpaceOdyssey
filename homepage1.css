@@ -76,13 +76,13 @@ span{
     width: 100px;
     height: 100px;
     top: 300px;
-    right: -80px;
+    right: -40px;
 }
 
 .ship2 {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     top: 350px;
     left: 80px;
 }
