@@ -76,7 +76,7 @@ span{
     width: 100px;
     height: 100px;
     top: 300px;
-    right: 0px;
+    right: 20px;
 }
 
 .ship2 {
@@ -84,5 +84,5 @@ span{
     width: 150px;
     height: 150px;
     top: 500px;
-    left: 60px;
+    left: 40px;
 }
