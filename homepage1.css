@@ -129,11 +129,14 @@ span{
     width: 440px;
     border-radius: 50px;
     padding: 5px;
-    margin-top: 300px;
-    margin-right: right;
-    margin-left: auto;
+    margin-top: 450px;
+    margin-right: auto;
     transition: 0.5s;
 
+}
+
+.start p {
+    text-align: center;
 }
 
 .start:hover {
