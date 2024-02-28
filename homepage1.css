@@ -76,19 +76,35 @@ span{
     width: 100px;
     height: 100px;
     top: 300px;
-    right: 20px;
+    right: 0px;
+    animation: move1 10s ease-in-out infinite;
 }
 
+@keyframes move1 {
+    0% { 
+      right: 0;
+      top: 20px;
+    }
+    50% {
+      right: calc(100% - 100px);
+      top: 300px;
+    }
+    100% {  
+      right: 0; 
+      top: 20px;   
+    }
+  }
+  
 .ship2 {
     position: absolute;
     width: 150px;
     height: 150px;
     top: 500px;
     left: 0px;
-    animation: move1 10s linear infinite;
+    animation: move2 10s linear infinite;
 }
 
-@keyframes move1 {
+@keyframes move2 {
     0% {
       left: 0;
       top: 0; 
