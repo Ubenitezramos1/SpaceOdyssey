@@ -17,6 +17,7 @@ body {
     left: 60px;
     top: 200px;
     animation: spin 20s linear infinite;
+    cursor: url(spaceship.png) 32 32, pointer;
 }
 
 .Nebulon:hover {
