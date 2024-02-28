@@ -17,6 +17,10 @@ span{
     animation: spin 20s linear infinite;
 }
 
+.Nebulon:hover {
+    scale: 1.5;
+}
+
 .Zentari {
     position: absolute;
     width: 330px;
