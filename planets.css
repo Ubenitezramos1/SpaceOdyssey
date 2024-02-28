@@ -82,7 +82,7 @@ span{
     animation-duration: 0.5s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
-    right: 600px;
+    right: 300px;
 }
 
 @keyframes textboxAppear {
