@@ -174,3 +174,18 @@ body {
     animation: moveSpaceship 5s linear infinite;
   }
 
+  @keyframes moveSpaceship {
+    0% {
+      left: -100px;
+      top: 100px;
+    }
+    50% {
+      left: 50%; 
+      top: 100px;
+    }
+    100% {
+      left: calc(100% + 100px);
+      top: 100px;
+    }
+  }
+
