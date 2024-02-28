@@ -17,8 +17,8 @@ body {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 300px;
-    right: 90px;
+    top: 400px;
+    right: 200px;
     animation: spin 8s linear infinite;
 }
 
