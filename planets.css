@@ -89,3 +89,21 @@ span{
 @keyframes textboxAppear {
     100%{background-color: #ffffffad;opacity: 100%;}
 }
+
+.backhome:hover{
+    scale: 1.2;
+    background-color: #f8f593ad;
+}
+.backhome img{
+    float: left;    
+    width: 70px;
+    height: 50px;
+}
+
+.backhome{
+    font-size: 18px;
+    color: #191418;
+    font-weight: bold;
+    font-family:'Press Start 2p';
+}
+
