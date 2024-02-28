@@ -29,11 +29,7 @@ span{
 }
 
 .Zentari:hover {
-    animation-direction: reverse; /* reverse animation */
-  
-    transform: scale(1.1); /* zoom in slightly */
-  
-    box-shadow: 0 0 10px #333; /* add shadow */
+    scale: 1.5;
   }
 
 .Glyptoria {
