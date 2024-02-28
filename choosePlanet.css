@@ -80,7 +80,7 @@ body {
     animation-duration: 0.5s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
-    right: 300px;
+    right: 500px;
 }
 
 @keyframes textboxAppear {
