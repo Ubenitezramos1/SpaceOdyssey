@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Press Start 2p';
+    src: url(PressStart2P-Regular.ttf);
+}
+
 body {
     background-image: url('spacebackground.png');
     background-repeat: no-repeat;
@@ -131,7 +136,6 @@ span{
     padding: 5px;
     margin-top: 300px;
     right: 500px;
-    
     transition: 0.5s;
 
 }
