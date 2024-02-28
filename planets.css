@@ -7,7 +7,7 @@ body {
     background-image: url('spacebackground.png');
     background-repeat: no-repeat;
     margin:0;
-    cursor: url('spaceship.png'), pointer;
+    cursor: url('spaceship.png'), auto;
 }
 
 .Nebulon {
