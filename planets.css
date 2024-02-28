@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Press Start 2p';
+    src: url(PressStart2P-Regular.ttf);
+}
+
 body {
     background-image: url('spacebackground.png');
     background-repeat: no-repeat;
@@ -77,4 +82,8 @@ span{
     animation-duration: 0.5s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+}
+
+@keyframes textboxAppear {
+    100%{background-color: #ffffffad;opacity: 100%;}
 }
