@@ -20,7 +20,6 @@ span{
     left: 60px;
     top: 200px;
     animation: spin 20s linear infinite;
-    cursor: url(spaceship.png), pointer;
 }
 
 .Zentari {
