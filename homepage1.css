@@ -7,7 +7,7 @@ body {
 }
 
 .Nebulon {
-    display: fixed;
+    position: absolute
     width: auto;
     height: auto;
     margin-top: 15px;
@@ -17,17 +17,16 @@ body {
 }
 
 .Zentari {
-    display: fixed;
+    position: absolute;
     width: auto;
     height: auto;
     margin-top: 80px;
     margin-left: 15px;
     animation: spin 8s linear infinite;
-
 }
 
 .Glyptoria {
-    display: fixed;
+    position: absolute;
     width: auto;
     height: auto;
     margin-top: 50px;
