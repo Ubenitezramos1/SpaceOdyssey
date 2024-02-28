@@ -178,7 +178,7 @@ body {
   @keyframes moveSpaceship {
     0% {
       left: 60px; /* start left position of .Nebulon */  
-      top: 400px; 
+      top: 200px; 
     }
     
     50% {
@@ -188,6 +188,6 @@ body {
     
     100% {
      left: 60px; 
-     top: 400px;
+     top: 200px;
     }
   }
