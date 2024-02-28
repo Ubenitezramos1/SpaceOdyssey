@@ -84,5 +84,13 @@ span{
     width: 150px;
     height: 150px;
     top: 500px;
-    left: 40px;
+    left: 0px;
+    animation: bounce 5s linear infinite;
 }
+
+@keyframes bounce {
+    0% {left: 0;}
+    50% {left: calc(100% - 150px);}
+    100% {left: 0;}
+  }
+  
