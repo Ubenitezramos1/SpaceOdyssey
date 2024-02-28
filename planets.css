@@ -124,6 +124,7 @@ body {
     height: 100px;
     top: 300px;
     right: 0px;
+    z-index: 1;
     animation: move1 10s ease-in-out infinite;
 }
 
@@ -148,6 +149,7 @@ body {
     height: 150px;
     top: 500px;
     left: 0px;
+    z-index: 1;
     animation: move2 10s linear infinite;
 }
 
