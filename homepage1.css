@@ -130,7 +130,8 @@ span{
     border-radius: 50px;
     padding: 5px;
     margin-top: 400px;
-    margin: auto;
+    right: auto;
+    left: auto;
     transition: 0.5s;
 
 }
