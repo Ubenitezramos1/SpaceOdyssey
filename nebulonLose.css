@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Press Start 2p";
+  src: url(PressStart2P-Regular.ttf);
+}
+
+* {
+  font-family: "Press Start 2p";
+}
+
 body {
   background-image: url("spacebackground.png");
   background-repeat: no-repeat;
@@ -17,13 +26,16 @@ body {
 
 #nebulonImage,
 #boom {
-  width: 40%;
+  width: 36%;
   height: auto;
 }
 
 #nebulonImage {
   z-index: 1;
-  animation: showImg 6s linear forwards;
+  animation: showImg 6s linear forwards, spin 20s linear forwards;
+  border-radius: 390px;
+  box-shadow: 0 0 8px 2px rgba(255, 0, 0, 0.2),
+    0 0 12px 4px rgba(255, 0, 0, 0.3), 0 0 16px 8px rgba(255, 0, 0, 0.4);
 }
 
 #boom {
@@ -44,19 +56,18 @@ body {
 }
 
 #text {
-  font-family: "Press Start 2P";
   text-align: center;
   color: red;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
   background-color: black;
   border-radius: 40px;
   padding: 40px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 
 #button {
-  font-family: "Press Start 2P";
   font-size: 30px;
   font-weight: bold;
   background-color: rgba(151, 132, 132, 1);
@@ -66,10 +77,13 @@ body {
   cursor: pointer;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease, background-color 0.2s ease;
+  animation: pulse 2s infinite;
 }
 
 #button:hover {
   transform: scale(1.1);
+  background-color: #ff6347;
+  color: #fff;
 }
 
 a {
@@ -109,6 +123,12 @@ a {
   }
 }
 
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes showText {
   0%,
   75% {
@@ -122,5 +142,20 @@ a {
   100% {
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.75);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
 }
