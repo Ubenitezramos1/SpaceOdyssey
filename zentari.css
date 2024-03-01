@@ -7,6 +7,7 @@ body{
     background-image: url("zentaribackground.png");
     background-repeat: no-repeat;
     background-color: #191418;
+    background-size: cover;
     height: 100vh;
 }
 .goback{
