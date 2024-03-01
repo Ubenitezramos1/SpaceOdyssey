@@ -154,3 +154,40 @@ span{
 @keyframes textboxAppear {
     100%{background-color: #ffffffad;opacity: 100%;}
 }
+
+.rainCloud{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 350px;
+    opacity: 0%;
+    animation-name: appear, movingCloud;
+    animation-duration: 1s, 15s;
+    animation-delay: 8s, 8s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+}
+
+@keyframes movingCloud {
+    0%{transform: translate(200px, 0px);}
+    50%{transform: translate(1000px, 0px);}
+    100%{transform: translate(200px, 0px);}
+
+}
+
+@keyframes appear {
+    100%{opacity: 100%;}
+}
+
+.rainPour{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 1720px;
+    opacity: 0%;
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
