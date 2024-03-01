@@ -129,7 +129,7 @@ span{
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
-    animation-delay: 4s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -139,7 +139,7 @@ span{
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
-    animation-delay: 7s;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -149,7 +149,7 @@ span{
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
-    animation-delay: 10s;
+    animation-delay: 9s;
     animation-fill-mode: forwards;
 }
 
