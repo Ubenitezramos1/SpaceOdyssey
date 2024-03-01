@@ -143,7 +143,7 @@ span{
 
 .textbox3{
     position: absolute;
-    top: 550px;
+    top: 580px;
     opacity: 0%;
     animation-name: textboxAppear;
     animation-duration: 2s;
@@ -153,4 +153,24 @@ span{
 
 @keyframes textboxAppear {
     100%{background-color: #ffffffad;opacity: 100%;}
+}
+
+.alienship{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    width: 100px;
+    animation-name: float;
+    animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float {
+    0% { transform: translate(0px, 0px) rotate(-5deg); }
+    25%{ transform: translate(-300px, 50px) rotate(5deg);}
+    50% { transform: translate(450px, -50px) rotate(-5deg); }
+    75%{ transform: translate(-30px, -100px) rotate(5deg);}
+    100% { transform: translate(-300px, -80px) rotate(5deg); }
 }
