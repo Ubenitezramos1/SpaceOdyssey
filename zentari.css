@@ -160,3 +160,75 @@ span{
 @keyframes textboxAppear {
     100%{background-color: #ffffffad;opacity: 100%;}
 }
+
+.shootingstar1{
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    width: 100px;
+    opacity: 0%;
+    animation-name: star;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+.shootingstar2{
+    position: absolute;
+    top: -10px;
+    left: 600px;
+    width: 100px;
+    opacity: 0%;
+    animation-name: star;
+    animation-duration: 4s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+.shootingstar3{
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    width: 100px;
+    opacity: 0%;
+    animation-name: star;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+.shootingstar4{
+    position: absolute;
+    top: -50px;
+    left: 700px;
+    width: 100px;
+    opacity: 0%;
+    animation-name: star;
+    animation-duration: 4s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+.shootingstar5{
+    position: absolute;
+    top: -30px;
+    left: 900px;
+    width: 100px;
+    opacity: 0%;
+    animation-name: star;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes star {
+    0%{opacity: 100%;}
+    20%{transform: translate(200px,200px);opacity: 0%;}
+    100%{transform: translate(200px,200px);opacity: 0%;}
+
+}
