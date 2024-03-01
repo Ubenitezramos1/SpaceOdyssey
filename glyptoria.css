@@ -36,6 +36,7 @@ body{
     color: #191418;
     font-weight: bold;
     font-family:'Press Start 2p';
+    z-index: 1;
 }
 
 .spaceship{
